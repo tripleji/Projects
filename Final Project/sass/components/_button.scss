@@ -27,6 +27,12 @@
     color: #777;
     font-weight: 500;
   }
+
+  &--grey {
+    background-color: $color-dgrey-1;
+    color: #fff;
+    font-weight: 500;
+  }
 }
 
 .btn-text {
