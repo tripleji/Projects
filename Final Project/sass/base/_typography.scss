@@ -24,7 +24,7 @@ body {
     display: block;
     font-size: 2rem;
     font-weight: 700;
-    letter-spacing: 3.2rem;
+    letter-spacing: 1.75rem;
   }
 }
 
@@ -36,6 +36,7 @@ body {
   background-image: linear-gradient(to right, $color-dgrey, $color-dgrey-1);
   -webkit-background-clip: text;
   color: transparent;
+  letter-spacing: 0.2rem;
 }
 
 .heading-tertiary {
