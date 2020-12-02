@@ -86,7 +86,7 @@ body {
   .section-features > * {
     transform: skewY(7deg); }
 
-.section-tours {
+.section-designers {
   background-color: #f7f7f7;
   padding: 25rem 0 15rem 0;
   margin-top: -10rem; }
@@ -94,6 +94,20 @@ body {
 .section-stories {
   position: relative;
   padding: 15rem 0; }
+
+.section-business {
+  padding: 15rem 0;
+  background-image: linear-gradient(to right bottom, rgba(47, 54, 64, 0.801), rgba(30, 39, 46, 0.801)); }
+
+.business {
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/idea.jpg);
+  background-size: 100%;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  height: 65rem; }
+  .business__form {
+    width: 50%;
+    padding: 6rem; }
 
 .card {
   perspective: 150rem;
@@ -293,7 +307,7 @@ body {
   height: 100%;
   width: 100%;
   z-index: -1;
-  opacity: 0.4;
+  opacity: 0.2;
   overflow: hidden; }
   .bg-video__content {
     height: 100%;
