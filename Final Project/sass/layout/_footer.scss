@@ -14,6 +14,11 @@
     height: auto;
   }
 
+  &__font {
+    color: #000;
+    font-size: 5rem;
+  }
+
   &__navigation {
     border-top: 1px solid $color-dgrey;
     padding-top: 2rem;
