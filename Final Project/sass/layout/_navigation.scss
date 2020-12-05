@@ -1,23 +1,41 @@
-.navigation {
-  &__checkbox {
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color-dgrey-1;
+  color: $color-white;
+  padding: 3rem;
+
+  &__logo-box {
+    top: 4rem;
+    left: 4rem;
+    font-size: 25px;
   }
 
-  &__button {
+  &__logo {
+    height: 2.5rem;
   }
 
-  &__background {
-    height: 6rem;
+  &__menu {
+    display: flex;
+    font-size: 18px;
   }
 
-  &__nav {
+  &__menu__item {
+    padding: 0.8rem 1.2rem;
+    margin: 0 8rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color-dgrey;
+      border-radius: 4px;
+    }
   }
 
-  &__list {
-  }
-
-  &__item {
-  }
-
-  &__linke {
+  &__toggle-btn {
+    position: absolute;
+    right: 4rem;
+    font-size: 2.6rem;
+    color: $color-white;
   }
 }

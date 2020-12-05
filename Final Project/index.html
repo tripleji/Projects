@@ -9,32 +9,32 @@
         <link rel="stylesheet" href="css/icon-font.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
-        
+        <script src="https://kit.fontawesome.com/6938c44e7b.js" crossorigin="anonymous"></script>
         <title>C&D | 애견 전문 헤어샵  </title>
     </head>
     <body>
-
-        <div class="navigation">
-            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-
-            <label for="navi-toggle " class="navigation__button">MENU</label>
-
-            <div class="navigation__background">&nbsp;</div>
-
-            <nav class="navigation__nav">
-                <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#" class="navigation__link"></a>내 주변</li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"></a>입점 문의</li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"></a>에약</li>
-                    <li class="navigation__item"><a href="#" class="navigation__link"></a>로그인</li>
-                </ul>
-            </nav>
-        </div>
-
-        <header class="header">
-            <div class="header__logo-box">
-                <img src="img/logo.png" alt="Logo" class="header__logo">
+        <nav class="navbar">
+            <div class="navbar__logo-box">
+                <img src="img/logo.png" alt="Logo" class="navbar__logo">
+                <a href="#">C&D</a>
             </div>
+
+            <div class="navbar__menu">
+                <ul class="navbar__menu">
+                    <li class="navbar__menu__item">내 주변</li>
+                    <li class="navbar__menu__item">입점 문의</li>
+                    <li class="navbar__menu__item">예약</li>
+                    <li class="navbar__menu__item">로그인</li>
+                </ul>
+            </div>
+
+            <button class="navbar__toggle-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+
+        </nav>
+           
+        <header class="header">
 
             <div class="header__text-box">
                 <h1 class="heading-primary">
@@ -331,8 +331,11 @@
         <footer class="footer">
 
             <div class="footer__logo-box">
-                <img src="img/logo.png" alt="logo" class="footer__logo">
-                <h1 class="footer__font">C&D</h1>
+                <a href="#">
+                    <img src="img/logo.png" alt="logo" class="footer__logo">
+                    <h1 class="footer__font">C&D</h1>
+                </a>
+              
             </div>
 
             <div class="row">

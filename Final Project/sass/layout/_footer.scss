@@ -1,22 +1,24 @@
 .footer {
   background-color: $color-dgrey-1;
-  padding: 10rem 0;
+  padding: 5rem 0;
   font-size: 1.4rem;
   color: $color-lgrey-1;
 
   &__logo-box {
     text-align: center;
-    margin-bottom: 8rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
   }
 
   &__logo {
-    width: 15rem;
-    height: auto;
+    width: 4rem;
   }
 
   &__font {
-    color: #000;
-    font-size: 5rem;
+    color: $color-white;
+    font-weight: 400;
+    font-size: 3rem;
+    bottom: 3rem;
   }
 
   &__navigation {
